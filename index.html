@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Fibonacci</title>
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+        <script src="js/client.js"></script>
+    </head>
+    
+    <body>
+        <div id="header">
+            <h3>Fibonacci Sequence</h3>
+            <p>Enter the number of
+                <a href="http://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci numbers</a>
+                to calculate then click Go!</p>
+            <input id="iterations" autocomplete=off value="0"/>
+            <div class="button" id="go">Go!</div>
+        </div>
+        <div id="result">
+            <table id="fibonacciTable"></table>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "fibonacci",
+  "version": "0.0.1",
+  "description": "fibonacci",
+  "dependencies": {
+    "node-static": "^0.7.6",
+    "socket.io": "^1.2.1"
+  },
+  "subdomain": "mjbalint-fibonacci",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
